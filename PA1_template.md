@@ -320,7 +320,7 @@ head(cln_data3)
 ## 1446 Saturday  weekend
 ```
 
-### a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis)
+### A panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis)
 
 *Summarizing data in order to meet the requirement*
 
@@ -336,7 +336,7 @@ xyplot(sum_data4$avg_steps ~ sum_data4$incr_min | sum_data4$day_type,layout=c(1,
 
 ![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17.png) 
 
-**It was observed that avg steps is during weekends is uniformly distributed, this may be attributed to people being involved in chores,shopping etc.
-Whereas during weekdays all though there is high avg during the beginging of the day (may be due to commute to work), during the day
-the avg steps is pretty low, this may be attributed to most people having office jobs, which involves a lot of sitting**
+**It was observed that avg steps during weekends is uniformly distributed, this may be attributed to people being involved in chores,shopping etc.
+Whereas during weekdays all though there is high avg at the beginging of the day (may be due to commute to work), during the day
+the avg steps is pretty low, this may be attributed to most people having office jobs, which involves a lot of sitting.**
 
